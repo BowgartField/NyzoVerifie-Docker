@@ -1,0 +1,6 @@
+nyzo-verifier:
+ container_name: nyzo-verifier
+ build: .
+ ports:
+  - "9444:9444/tcp"
+  - "9446:9446/udp"
